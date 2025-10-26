@@ -25,9 +25,6 @@ export function FloatingCard({ children, className = '', intensity = 1, onClick 
           duration: 6,
           repeat: Infinity,
           ease: "easeInOut"
-        },
-        hover: {
-          duration: 0.3
         }
       }}
       style={{
