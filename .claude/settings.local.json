@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/heavyshark/Developer/TrueSkies/**)",
+      "Bash(npm create:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Read(//Users/heavyshark/Developer/insania-labs/**)",
+      "Read(//Users/heavyshark/Documents/Insania Labs/True Skies/**)",
+      "Bash(sips -g all:*)",
+      "Bash(sips:*)",
+      "Read(//Users/heavyshark/Developer/**)",
+      "Bash(npm install:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
