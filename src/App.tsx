@@ -3,6 +3,10 @@ import { AnimatedBackground } from './components/AnimatedBackground';
 import { FloatingCard } from './components/FloatingCard';
 import './App.css';
 
+// Import images properly for Vite
+import appIcon from '/app-icon.png';
+import insaniaLogo from '/insania-logo.png';
+
 function App() {
   return (
     <div className="app">
@@ -12,7 +16,7 @@ function App() {
       <header className="header">
         <div className="header-content">
           <div className="logo">
-            <img src="/app-icon.png" alt="True Skies" className="logo-icon" />
+            <img src={appIcon} alt="True Skies" className="logo-icon" />
             <span>True Skies</span>
           </div>
           <a
@@ -226,7 +230,7 @@ function App() {
       {/* Footer */}
       <footer className="footer">
         <div className="footer-content">
-          <img src="/insania-logo.png" alt="Insania Labs" className="footer-logo" />
+          <img src={insaniaLogo} alt="Insania Labs" className="footer-logo" />
         </div>
 
         <div className="footer-bottom">
