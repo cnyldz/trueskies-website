@@ -68,7 +68,7 @@ function App() {
             transition={{ duration: 1, delay: 0.9 }}
           >
             <motion.a
-              href="https://apps.apple.com"
+              href="https://apps.apple.com/us/developer/insania-labs/id1815473859"
               target="_blank"
               rel="noopener noreferrer"
               className="app-store-button"
