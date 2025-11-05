@@ -12,7 +12,13 @@
       "Read(//Users/heavyshark/Developer/**)",
       "Bash(npm install:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git branch:*)",
+      "Bash(git commit:*)",
+      "mcp__github__create_repository",
+      "Bash(gh repo create:*)",
+      "Bash(git push:*)",
+      "Bash(npm run build:*)"
     ],
     "deny": [],
     "ask": []
